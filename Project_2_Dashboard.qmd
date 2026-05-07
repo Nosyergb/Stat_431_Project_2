@@ -229,7 +229,7 @@ plastics |>
        fill = "Plastic Type") +
   theme_light()
 ```
-#### Plastic Output by Year
+#### Plastic Type Output by Year
 
 ```{r}
 #| label: rq1-dynamic-visualization
@@ -284,7 +284,8 @@ ggplotly(global_plot, tooltip = "text")
 ::: {.card}
 ### Why China?
 
-China was selected as a case of change because its plastic type composition differs noticeably between 2019 and 2020. Looking at China separately allows us to see whether shifts in plastic types within one country follow or differ from the broader global pattern. We also wanted to investigate whether the introduction of COVID-19 affected the founders of the virus more than the rest of the world.
+China was selected as a case of change because its plastic composition shifts substantially from 2019 to 2020, particularly with a large increase in the “other” plastic category and a decline in PET. These changes highlight how plastic waste composition can vary over time within a single country. Additionally, we were interested in investigating how the COVID-19 pandemic may have impacted China specifically and influenced patterns of plastic usage and waste.
+
 :::
 
 ## Row {height="82%"}
